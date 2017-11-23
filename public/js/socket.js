@@ -1,5 +1,5 @@
 console.log('socket.jsiioooioi');
-const socket = io.connect(['http://192.168.100.244:3000', 'http://109.105.46.126:3000']);
+const socket = io.connect(['http://192.168.100.244:3000']);
 
 const button = document.getElementById('klik');
 const elementPocetKliknuti = document.getElementById('kliknuti');

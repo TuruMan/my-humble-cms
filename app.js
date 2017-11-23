@@ -37,6 +37,13 @@ let User = require('./models/user');
 app.get('/users/register', (req, res) => {
   res.render('register');
 });
+app.post('/users/register', (req, res) => {
+  const name = req.body.name;
+  const email = req.body.email;
+  const username = req.body.username;
+  const password = req.body.password;
+  const password2 = req.body.password2;
+});
 
 
 
